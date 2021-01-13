@@ -4,19 +4,20 @@ const App = () => {
 
   let time = new Date().toLocaleTimeString();
 
-  const [ctime, setCtime] = useState(time);
+  let [ctime, setCtime] = useState(time);
 
   const updateTime = () => {
-    time = new Date().toLocaleTimeString();
-    setCtime(time);
+    ctime = new Date().toLocaleTimeString();
+    setCtime(ctime);
   }
+
+  setInterval(updateTime, 1000);
 
   return ( 
     <div style={{ textAlign: "center" }}>
       <h1>
         {time}
       </h1>
-      <button onClick={updateTime}>Get Time</button>
     </div>
    );
 }
