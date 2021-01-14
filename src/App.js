@@ -14,9 +14,9 @@ const App = () => {
   setInterval(updateTime, 1000);
 
   return ( 
-    <div style={{ textAlign: "center" }}>
+    <div className="container">
       <h1>
-        {time}
+        {ctime}
       </h1>
     </div>
    );
