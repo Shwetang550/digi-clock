@@ -1,0 +1,2 @@
+(this["webpackJsonpdigi-clock"]=this["webpackJsonpdigi-clock"]||[]).push([[0],{10:function(e,t,c){"use strict";c.r(t);var n=c(1),i=c(0),a=c(3),o=c.n(a),r=c(4),s=function(){var e=(new Date).toLocaleTimeString(),t=Object(i.useState)(e),c=Object(r.a)(t,2),a=c[0],o=c[1];return setInterval((function(){a=(new Date).toLocaleTimeString(),o(a)}),1e3),Object(n.jsx)("div",{className:"container",children:Object(n.jsx)("h1",{children:a})})};o.a.render(Object(n.jsx)(s,{}),document.getElementById("root"))}},[[10,1,2]]]);
+//# sourceMappingURL=main.d7de88dc.chunk.js.map
